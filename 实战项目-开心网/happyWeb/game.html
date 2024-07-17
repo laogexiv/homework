@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>开心网——网页游戏</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+//表单验证函数
+function checkForm(){
+	var ouser = document.getElementById("username");
+	var opwd  = document.getElementById("pwd");
+	if(ouser.value == ""){
+		alert("请输入账号");
+		ouser.focus();
+		return false;
+	}
+	if(opwd.value == ""){
+		alert("请输入密码");
+		ouser.focus();
+		return false;
+	}
+	return true;
+}
+
+</script>
+</head>
+<body> 
+ <table id="header" width="1000" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td id="gameLogo" ><img src="images/gameLogo.jpg"/></td>
+    <td> <a href="index.html" class="gameIndex" >首页</a></td>
+    <td width="205" id="menu" valign="middle"><a href="register.html">注册</a> | <a href="login.html">登录</a> | <a href="#">帮助</a> | <a href="public.html">更多</a> </td>
+  </tr>
+</table> 
+<p class="clear"></p>
+<!--主体内容开始-->
+<table id="container" width="1000" border="0" cellspacing="0" cellpadding="0">
+	<!-- 主体左侧 -->
+    <tr> 
+		<td class="gameLeft" width="724"  valign="top">
+        	<table   border="0" cellspacing="0" cellpadding="0">
+            <!-- 左侧菜单和幻灯片 -->
+              <tr>
+                <td> 	 
+                	<table  border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                     	 <!-- 左侧菜单   -->
+                        <td width="192">
+                        	<table   border="0" cellspacing="0" cellpadding="0" class="gameNav">
+                              <tr>
+                                <td><a href="#"><img src="images/sub-19.gif">侠客世界</a></td>
+                              </tr>
+                              <tr>
+                                <td><a href="#"><img src="images/sub-20.gif">征战四方</a></td>
+                              </tr>
+                               <tr>
+                                <td><a href="#"><img src="images/sub-21.gif">龙将</a></td>
+                              </tr>
+                               <tr>
+                                <td><a href="#"><img src="images/sub-22.gif">弹弹堂</a></td>
+                              </tr>
+                               <tr>
+                                <td><a href="#"><img src="images/sub-23.gif">凡人修真2</a></td>
+                              </tr>
+                               <tr>
+                                <td><a href="#"><img src="images/sub-24.gif">一骑当先</a></td>
+                              </tr>
+                               <tr>
+                                <td><a href="#"><img src="images/sub-25.gif">宫廷计</a></td>
+                              </tr>
+                               <tr>
+                                <td><a href="#"><img src="images/sub-26.gif">神仙道</a></td>
+                              </tr> 
+                            </table> 
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;</td>
+                        <!--   幻灯片 -->
+                        <td   width="522"> 
+                        	<p  class="gameAdver"  > 
+                       	    <a href="#"><img src="images/img-20.jpg" /></a>  
+                            </p>
+                        </td>
+                      </tr>
+                    </table> 
+                </td>
+              </tr>
+              <tr><td><p class="clear"></p></td></tr>
+              <!-- 主要内容 -->
+              <tr>
+                <td class="gameBorder" width="724"> 
+                	<table    border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td class="gameTitle"  width="724">  
+                         	<table width="50%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                              	<td><h3 >全部游戏</h3></td>
+                                <td><a href="#">战争策略</a></td>
+                                <td>|</td>
+                                <td><a href="#">体育经营</a></td>
+                                <td>|</td>
+                                <td><a href="#">社交游戏</a></td> 
+                              </tr>
+                            </table> 
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="allGame" > 
+                        	<table    border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td class="one"> 
+                                	<table    border="0" cellspacing="0" cellpadding="0">
+                                		<tr>
+                                        	<td width="190"><a href="#" class="titleImg"><img src="images/img-21.jpg"></a></td>
+                                            <td>
+                                                <h1><a href="#">龙将</a></h1>
+                                                三国题材横版RPG网游，丰富的武将系统<br>
+                                                类型：角色扮演<br>
+                                                游戏人气：<span>470921</span><br>
+                                                <a href="#"><img src="images/btn-03.jpg"></a> <a href="#"><img src="images/btn-04.jpg"></a> 
+                                            </td>
+                                    </tr>
+                                    </table>
+                                </td>
+                                <td width="30"></td>
+                                <td class="one"> 
+                                	<table    border="0" cellspacing="0" cellpadding="0">
+                                		<tr>
+                                        	<td  width="190"> <a href="#" class="titleImg"><img src="images/img-22.jpg"></a></td>
+                                            <td> 
+                                                <h1><a href="#">征战四方</a></h1>
+                                                一款不建主城不等CD，不占资源，全程战斗<br>
+                                                类型：战征策略<br>
+                                                游戏人气：8745221<br>
+                                                <a href="#"><img src="images/btn-03.jpg"></a> <a href="#"><img src="images/btn-04.jpg"></a>
+                                             </td>
+                                        </tr>
+                                    </table>          
+                                </td>
+                              </tr>
+                            </table> 
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="gameTitle">  
+                       		 <h3 >角色扮演</h3> 
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="role"  > 
+                        	<table    border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td > 
+                                	<a href="#"><img src="images/img-23.jpg"></a>
+                                    <h1><a href="#">神仙道</a></h1>
+                                    <p>游戏人气：1765314<br>
+                                      游戏状态：<span>22区开启</span></p>
+                                    <a href="#"><img src="images/btn-03.jpg"></a> <a href="#"><img src="images/btn-04.jpg"></a>
+                                </td>
+                                <td> 
+                                	<a href="#"><img src="images/img-24.jpg" /></a> 
+									<h1><a href="#">征战四方</a></h1> 
+									<p>游戏人气：1245814<br/> 
+									  游戏状态：<span>23区开启</span></p> 
+									<a href="#"><img src="images/btn-03.jpg"/></a> <a href="#"><img src="images/btn-04.jpg"/></a>
+                                </td>
+                                <td> 
+									<a href="#"><img src="images/img-25.jpg" /></a> 
+									<h1><a href="#">一骑当先</a></h1> 
+									<p>游戏人气：1232158<br/> 
+									  游戏状态：<span>25区开启</span></p> 
+									<a href="#"><img src="images/btn-03.jpg"/></a> <a href="#"><img src="images/btn-04.jpg"/></a>
+									</td>
+                                <td> 
+								    <a href="#"><img src="images/img-26.jpg" /></a> 
+									<h1><a href="#">洪荒神话</a></h1> 
+									<p>游戏人气：123745<br/> 
+									  游戏状态：<span>18区开启</span></p> 
+									<a href="#"><img src="images/btn-03.jpg"/></a> <a href="#"><img src="images/btn-04.jpg"/></a>   
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+									<a href="#"><img src="images/img-27.jpg" /></a> 
+									<h1><a href="#">龙将</a></h1>  
+									<p>游戏人气：178501<br/> 
+									  游戏状态：<span>火爆开启</span></p> 
+									<a href="#"><img src="images/btn-03.jpg"/></a> <a href="#"><img src="images/btn-04.jpg"/></a>
+                                </td>
+                                <td> 
+									<a href="#"><img src="images/img-28.jpg" /></a> 
+									<h1><a href="#">一球成名</a></h1> 
+									<p>游戏人气：983014<br/> 
+									  游戏状态：<span>2服开启</span></p> 
+									<a href="#"><img src="images/btn-03.jpg"/></a> <a href="#"><img src="images/btn-04.jpg"/></a>
+                                </td>
+                                <td>
+									<a href="#"><img src="images/img-29.jpg" /></a> 
+									<h1><a href="#">凡人修真2</a></h1> 
+									<p>游戏人气：745214<br/> 
+									  游戏状态：<span>4服开启</span></p> 
+									<a href="#"><img src="images/btn-03.jpg"/></a> <a href="#"><img src="images/btn-04.jpg"/></a>
+								</td>
+                                <td>
+								    <a href="#"><img src="images/img-30.jpg" /></a> 
+									<h1><a href="#">傲视开地</a></h1> 
+									<p>游戏人气：654814<br/> 
+								  游戏状态：<span>火爆开启</span></p> 
+								    <a href="#"><img src="images/btn-03.jpg"/></a> <a href="#"><img src="images/btn-04.jpg"/></a>
+								</td>
+                               
+                              </tr>
+                            </table> 
+                        </td>
+                      </tr>
+                    </table>
+
+                </td>
+              </tr>
+            </table> 
+        </td> 
+        <td>&nbsp;&nbsp;&nbsp;</td>
+    	<!-- 主体右侧 --> 
+    	<td class="gameRight" valign="top" width="260">
+        	<form method="post" action="" onsubmit="return checkForm();return false;" />
+        	<table width="260" border="0" cellspacing="0" cellpadding="0" class="gameLogin">
+              <tr >
+                <th  colspan="3"><h1>开心网用户登录</h1></th>
+              </tr>
+              <tr >
+                <td class="f14" >账号：</td>
+                <td colspan="2" align="left"><input name="username" id="username" type="text" class="text"/></td>
+              </tr>
+              <tr >
+              	 <td  class="f14">密码：</td>
+                <td colspan="2" align="left" > <input name="pwd" id="pwd" type="password" class="text"/></td>
+              </tr>
+              <tr> 
+                <td>&nbsp; </td>
+                <td align="left"><input name="login" type="submit" value=" "  class="login" /></td>
+                <td>
+                    <a href="register.html">立即注册</a><br/>
+                    <a href="#">忘记密码</a>
+                </td>  
+              </tr>
+              <tr>
+                <td colspan="3"  >&nbsp; </td>
+              </tr>
+            </table>
+            </form>
+			<p class="clear"></p>
+        	<table  border="0" cellspacing="0" cellpadding="0" class="gameBorder" width="100%">
+              <tr>
+                <td class="gameTitle"><h3>新闻公告</h3></td>
+              </tr>
+              <tr>
+                <td>
+                 	<p class="clear"></p>
+                    <table  border="0" cellspacing="0" cellpadding="0" class="news"> 
+                        <tr><td><a href="#">[征战四方] 开心首服·黄巾之乱</a></td></tr>
+                        <tr><td><a href="#">[龙将] 火爆8服·八门金</a></td></tr>
+                        <tr><td><a href="#">[弹弹堂] 41服开启·万人竞技</a></td></tr> 
+                        <tr><td><a href="#">[凡人修真2] 03月08日·四海帝王</a></td></tr> 
+                        <tr><td><a href="#">[一骑当先] 开心2服上线送黄金</a></td></tr> 
+                        <tr><td><a href="#">[宫廷计] 03月06日·西施秘史</a></td></tr> 
+                        <tr><td><a href="#">[神仙道] 03月05日·玄净魔影</a></td></tr> 
+                        <tr><td><a href="#">[千军破] 48服·登录送史实名将</a></td></tr> 
+                        <tr><td><a href="#">[大唐行镖] 全球唯一走镖页游</a></td></tr> 
+                        <tr><td><a href="#">[范特西篮球] 疯狂纽约来啦！</a></td></tr> 
+                        <tr><td><a href="#">[一球成名] 27服开服·王者之战</a></td></tr> 
+                        <tr><td class="noBorder"> <a href="#">[凡人修真2] 03月08日·四海帝王</a></td></tr>
+                    </table> 
+               </td>
+              </tr> 
+            </table>
+			<p class="clear"></p>
+             <table  border="0" cellspacing="0" cellpadding="0" class="gameBorder">
+              <tr>
+                <td class="gameTitle"><h3>游戏视频</h3></td>
+              </tr>
+              <tr>
+                <td>
+                 	<p class="clear"></p>
+                    <table  border="0" cellspacing="5" cellpadding="0" class="gameVideo"> 
+                        <tr>
+                        	<td class="border-btm"> 
+                            	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td  width="140><a href="#"><img src="images/img-18.jpg" /></a></td>
+                                    <td "><a href="#">《航海之王》麻辣炫酷反穿越，英雄时尚大变身！</a></td>
+                                  </tr>
+                                </table> 
+                            </td>
+                        </tr> 
+                        <tr>
+                        	<td >
+                          	  <table  border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td  width="140"> <a href="#"><img src="images/img-19.jpg" /></a></td>
+                                    <td><a href="#">《弹弹堂》吴克群同名激情主题MV，体验修真乐趣</a></td>
+                                  </tr>
+                                </table> 
+                            
+                           </td>
+                        </tr> 
+                    </table> 
+               </td>
+              </tr> 
+            </table>
+        </td>
+	</tr> 
+ 
+<!--主体内容结束-->
+<table width="1000" border="0" cellspacing="0" cellpadding="0" id="footer">
+	<tr>
+    	<td>
+            <a href="#">关于我们</a> 
+            <a href="#">手机版</a>
+            <a href="#">开放平台</a> 
+            <a href="#">自助广告</a>
+            <a href="#">招聘</a> 
+            <a href="#">客服</a> 
+            <a href="#">帮助</a> 
+ @2012开心网&nbsp;  文网文[2009]157号&nbsp;  京ICP证080482号&nbsp;&nbsp;京公网安备110000000003号 未成年人家长监护 
+         </td>
+    </tr>
+</table>
+</body>
+</html>
