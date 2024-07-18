@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>开心网 - 登录</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="menu">
+        <img class="logo" src="img/LOGO.png">
+        <div class="menu-a-block">
+            <p id="timer" class="timer"></p>
+            <a href="register.html" class="menu-a">注册</a> |
+            <a href="login.html" class="menu-a">登录</a> |
+            <a href="help.html" class="menu-a">帮助</a> |
+            <a href="menu.html" class="menu-a">更多</a>
+        </div>
+        <a href="index2.html" class="webgame-top">
+            <center>首页</center>
+        </a>
+    </div>
+    <div class="menu5-block">
+        <div class="menu5-l-block">
+            <img src="img/侠客世界.png" class="menu5-img">
+            <span class="menu5-text">侠客世界</span>
+        </div>
+        <div class="menu5-l-block">
+            <img src="img/征战四方-little-litte.png" class="menu5-img">
+            <span class="menu5-text">征战四方</span>
+        </div>
+        <div class="menu5-l-block">
+            <img src="img/龙将-little-little.png" class="menu5-img">
+            <span class="menu5-text">龙将</span>
+        </div>
+        <div class="menu5-l-block">
+            <img src="img/弹弹堂-little-little.png" class="menu5-img">
+            <span class="menu5-text">弹弹堂</span>
+        </div>
+        <div class="menu5-l-block">
+            <img src="img/凡人修真2-little.png" class="menu5-img">
+            <span class="menu5-text">凡人修真2</span>
+        </div>
+        <div class="menu5-l-block">
+            <img src="img/一骑当先-little.png" class="menu5-img">
+            <span class="menu5-text">一骑当先</span>
+        </div>
+        <div class="menu5-l-block">
+            <img src="img/宫廷计.png" class="menu5-img">
+            <span class="menu5-text">宫廷计</span>
+        </div>
+        <div class="menu5-l-block">
+            <img src="img/神仙道-little.png" class="menu5-img">
+            <span class="menu5-text">神仙道</span>
+
+            <!-- <div class="menu5-l-block-1" onmouseover="menu5color(menu5-l-block-1)">
+                        <img src="img/侠客世界.png" class="menu5-img">
+                        <span class="menu5-text">侠客世界</span>
+                    </div>
+                    <div class="menu5-l-block-2" onmouseover="menu5color(menu5-l-block-2)">
+                        <img src="img/征战四方-little-litte.png" class="menu5-img">
+                        <span class="menu5-text">征战四方</span>
+                    </div>
+                    <div class="menu5-l-block-3" onmouseover="menu5color(menu5-l-block-3)">
+                        <img src="img/龙将-little-little.png" class="menu5-img">
+                        <span class="menu5-text">龙将</span>
+                    </div>
+                    <div class="menu5-l-block-4" onmouseover="menu5color(menu5-l-block-4)">
+                        <img src="img/弹弹堂-little-little.png" class="menu5-img">
+                        <span class="menu5-text">弹弹堂</span>
+                    </div>
+                    <div class="menu5-l-block-5" onmouseover="menu5color(menu5-l-block-5)">
+                        <img src="img/凡人修真2-little.png" class="menu5-img">
+                        <span class="menu5-text">凡人修真2</span>
+                    </div>
+                    <div class="menu5-l-block-6" onmouseover="menu5color(menu5-l-block-6)">
+                        <img src="img/一骑当先-little.png" class="menu5-img">
+                        <span class="menu5-text">一骑当先</span>
+                    </div>
+                    <div class="menu5-l-block-7" onmouseover="menu5color(menu5-l-block-7)">
+                        <img src="img/宫廷计.png" class="menu5-img">
+                        <span class="menu5-text">宫廷计</span>
+                    </div>
+                    <div class="menu5-l-block-8" onmouseover="menu5color(menu5-l-block-8)">
+                        <img src="img/神仙道-little.png" class="menu5-img">
+                        <span class="menu5-text">神仙道</span>
+                    </div> -->
+        </div>
+    </div>
+    <div class="webgame-login-block">
+        <div class="webgame-login">
+            <span>开心网用户登录</span>
+            <br><br>
+            <form>
+                <span>账号: </span><input type="text" name="id" class="webgame-login-input" id="id">
+                <br><br>
+                <span>密码: </span><input type="password" name="password" class="webgame-login-input" id="pwd">
+                <br><br>
+                <img class="login-button" type="submit" id="submit" src="img/login button.png" onclick="login()">
+                <span class="webgame-login-2button">
+                    <span><a href="register.html" class="webgame-login-a">立即注册</a></span><br>
+                    <span><a href="#" class="webgame-login-a">忘记密码</a></span>
+                </span>
+            </form>
+        </div>
+    </div> <img src="img/webgame-ab.png" class="webgame-ab">
+    <div class="webgame-gamemenu">
+        <span style="color: brown;
+        /* vertical-align: 50%; */
+        "><strong>&nbsp;&nbsp;全部游戏&nbsp;&nbsp;&nbsp;&nbsp;</strong></span>
+        <span><a href="#">战争策略</a></span>
+        |
+        <span><a href="#">体育经营</a></span>
+        |
+        <span><a href="#">社交游戏</a></span>
+    </div>
+    <div class="webgame-game-ab">
+        <div class="webgame-game-ab-1">
+            <!-- <div class="webgame-game-ab-img"> -->
+            <img src="img/龙将.png" class="webgame-game-ab-img">
+            <div class="webgame-game-ab-text">
+                <span><strong style="color: brown;font-size: 125%;">龙将</strong></span><br><br><br>
+                <span>三国题材横板RPG网</span><br><br><br>
+                <span>游，丰富的武将系统</span><br><br><br>
+                <span>类型: 角色扮演</span><br><br><br>
+                <span>游戏人气: 470921</span><br><br><br>
+                <span><button
+                        style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">进入游戏</button>
+                </span>
+                <span><button
+                        style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">新手资料</button></span>
+            </div>
+        </div>
+        <div class="webgame-game-ab-2">
+            <img src="img/征战四方.png" class="webgame-game-ab-img">
+            <div class="webgame-game-ab-text">
+                <span><strong style="color: brown;font-size: 125%;">征战四方</strong></span><br><br><br>
+                <span>一款不是主城等CD, </span><br><br><br>
+                <span>不占资源, 全程战斗</span><br><br><br>
+                <span>类型: 战争策略</span><br><br><br>
+                <span>游戏人气: 8745221</span><br><br><br>
+                <span><button
+                        style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">进入游戏</button>
+                </span>
+                <span><button
+                        style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">新手资料</button></span>
+            </div>
+        </div>
+    </div>
+    <div class="webgame-jsby"><strong style="color: brown;">&nbsp;&nbsp;角色扮演</strong></div>
+    <div class="webgame-game">
+        <div class="webgame-game-1">
+            <img src="img/神仙道.png" class="webgame-game-img">
+            <div class="webgame-game-text-block">
+                <center>
+                    <span class="webgame-game-text" style="color: brown;font-size: 125%;"><strong>神仙道</strong></span>
+                    <br>
+                    <span class="webgame-game-text">游戏人气: 1238014</span>
+                    <br>
+                    <span class="webgame-game-text">游戏状态: 22区开启</span>
+                    <br>
+                    <span class="webgame-game-text"><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">进入游戏</button></span>
+
+                    <span><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">新手资料</button></span>
+                </center>
+            </div>
+
+        </div>
+        <div class="webgame-game-2">
+            <img src="img/征战四方-little.png" class="webgame-game-img">
+            <div class="webgame-game-text-block">
+                <center>
+                    <span class="webgame-game-text" style="color: brown;font-size: 125%;"><strong>征战四方</strong></span>
+                    <br>
+                    <span class="webgame-game-text">游戏人气: 7468014</span>
+                    <br>
+                    <span class="webgame-game-text">游戏状态: 23区开启</span>
+                    <br>
+                    <span class="webgame-game-text"><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">进入游戏</button></span>
+
+                    <span><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">新手资料</button></span>
+                </center>
+            </div>
+
+        </div>
+        <div class="webgame-game-3">
+            <img src="img/一骑当先.png" class="webgame-game-img">
+            <div class="webgame-game-text-block">
+                <center>
+                    <span class="webgame-game-text" style="color: brown;font-size: 125%;"><strong>一骑当先</strong></span>
+                    <br>
+                    <span class="webgame-game-text">游戏人气: 8734714</span>
+                    <br>
+                    <span class="webgame-game-text">游戏状态: 22区开启</span>
+                    <br>
+                    <span class="webgame-game-text"><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">进入游戏</button></span>
+
+                    <span><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">新手资料</button></span>
+                </center>
+            </div>
+
+        </div>
+        <div class="webgame-game-4">
+            <img src="img/洪荒神话.png" class="webgame-game-img">
+            <div class="webgame-game-text-block">
+                <center>
+                    <span class="webgame-game-text" style="color: brown;font-size: 125%;"><strong>洪荒神话</strong></span>
+                    <br>
+                    <span class="webgame-game-text">游戏人气: 5898014</span>
+                    <br>
+                    <span class="webgame-game-text">游戏状态: 28区开启</span>
+                    <br>
+                    <span class="webgame-game-text"><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">进入游戏</button></span>
+
+                    <span><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">新手资料</button></span>
+                </center>
+            </div>
+
+        </div>
+        <div class="webgame-game-5">
+            <img src="img/龙将-little.png" class="webgame-game-img">
+            <div class="webgame-game-text-block">
+                <center>
+                    <span class="webgame-game-text" style="color: brown;font-size: 125%;"><strong>龙将</strong></span>
+                    <br>
+                    <span class="webgame-game-text">游戏人气: 3245614</span>
+                    <br>
+                    <span class="webgame-game-text">游戏状态: 火爆开启</span>
+                    <br>
+                    <span class="webgame-game-text"><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">进入游戏</button></span>
+
+                    <span><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">新手资料</button></span>
+                </center>
+            </div>
+
+        </div>
+        <div class="webgame-game-6">
+            <img src="img/一球成名.png" class="webgame-game-img">
+            <div class="webgame-game-text-block">
+                <center>
+                    <span class="webgame-game-text" style="color: brown;font-size: 125%;"><strong>一球成名</strong></span>
+                    <br>
+                    <span class="webgame-game-text">游戏人气: 8765439</span>
+                    <br>
+                    <span class="webgame-game-text">游戏状态: 2服开启</span>
+                    <br>
+                    <span class="webgame-game-text"><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">进入游戏</button></span>
+
+                    <span><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">新手资料</button></span>
+                </center>
+            </div>
+
+        </div>
+        <div class="webgame-game-7">
+            <img src="img/凡人修真2.png" class="webgame-game-img">
+            <div class="webgame-game-text-block">
+                <center>
+                    <span class="webgame-game-text" style="color: brown;font-size: 125%;"><strong>凡人修真2</strong></span>
+                    <br>
+                    <span class="webgame-game-text">游戏人气: 2415672</span>
+                    <br>
+                    <span class="webgame-game-text">游戏状态: 4服开启</span>
+                    <br>
+                    <span class="webgame-game-text"><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">进入游戏</button></span>
+
+                    <span><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">新手资料</button></span>
+                </center>
+            </div>
+
+        </div>
+        <div class="webgame-game-8">
+            <img src="img/傲视天地.png" class="webgame-game-img">
+            <div class="webgame-game-text-block">
+                <center>
+                    <span class="webgame-game-text" style="color: brown;font-size: 125%;"><strong>傲视天地</strong></span>
+                    <br>
+                    <span class="webgame-game-text">游戏人气: 9215604</span>
+                    <br>
+                    <span class="webgame-game-text">游戏状态: 火爆开启</span>
+                    <br>
+                    <span class="webgame-game-text"><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">进入游戏</button></span>
+
+                    <span><button
+                            style="background-color: rgb(222, 255, 173);color: green; border: 1px solid green;">新手资料</button></span>
+                </center>
+            </div>
+
+        </div>
+    </div>
+    <div class="webgame-new-title-block">
+        <strong style="color: brown;">&nbsp;&nbsp;新闻公告</strong>
+    </div>
+    <div class="webgame-new-block">
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[征战四方] 开心首服 · 黄巾之乱</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[龙将] 火爆8服 · 八门金锁</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[弹弹堂] 41服开启 · 万人竞技</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[凡人修真2] 03月08日 · 四海帝王</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[一骑当先] 开心2服上线送黄金</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[宫廷计] 03月06日 · 西施秘史</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[神仙道] 03月05日 · 玄净魔影</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[千军破] 48服 · 登录送史实名将</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[大唐行镖] 全球唯一走镖页游</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[范特西篮球] 疯狂纽约来啦！</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[一球成名] 27服开服 · 王者之战</a>
+        </div>
+        <div class="webgame-new-l">
+            <img src="img/新游.png">
+            <a href="#">[凡人修真2] 03月08日 · 四海帝王</a>
+        </div>
+    </div>
+    <div class="webgame-bottom">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://wap.kaixin001.com">手机版</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">开放平台</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">自助广告</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">招聘</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">客服</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="help.html">帮助</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        @2012开心网&nbsp;&nbsp; 文网文 [2009] 157号
+        &nbsp;&nbsp;京ICP证080382号&nbsp;&nbsp;京公网安备110000000003号&nbsp;&nbsp;未成年人家长监护
+    </div>
+</body>
